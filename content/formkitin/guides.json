@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "ssc-photo-signature-checklist",
+    "title": "SSC photo and signature checklist that actually matches the 2026 notices",
+    "excerpt": "Pixels, kilobytes, background and the three mistakes that bounce an application.",
+    "minutes": 7,
+    "updatedAt": "2026-09-08",
+    "body": [
+      "Open the latest official notice, not last year’s blog. The Staff Selection Commission reprints the photograph specification in every CHSL, CGL and GD notification. Copy those numbers into FormKitIN before you touch the compressor.",
+      "A usable photograph is taken against a light background, face covering 70–80% of the frame, both eyes open, no red-eye, no selfie angle. Do not wear a cap unless the notice allows a religious article and the face remains fully visible.",
+      "Kilobyte windows exist because the SSC server rejects both tiny and huge files. 20–50 KB is the usual band. If your phone camera writes a 3 MB HEIC, convert to JPEG first, then resize. FormKitIN never uploads the file; the work stays in the tab.",
+      "Signatures fail when they include a date, sit on lined paper, or are a photograph of a previously scanned form. Sign once on unlined white paper with a black pen.",
+      "Name and date overlays are a separate requirement on some older state forms. If the 2026 notice does not ask for them, do not add them."
+    ]
+  },
+  {
+    "slug": "age-as-on-date-worked-examples",
+    "title": "Age as on date: five worked examples from 2026 notices",
+    "excerpt": "CHSL, RRB, IBPS and a state PSC each print a different as-on date. Here is how to read them.",
+    "minutes": 6,
+    "updatedAt": "2026-09-08",
+    "body": [
+      "Example 1. SSC CHSL 2026, as on 1 January 2026, general max 27. Born 15 June 1999 → 26 years 6 months 17 days. Inside the window.",
+      "Example 2. Same notice, born 1 January 1999 → 27 years exactly. Still inside if the board counts the birthday as completed years not exceeding 27. If you are on the edge, read the notice sentence on ‘not exceeding’.",
+      "Example 3. IBPS RRB Office Assistant, as on 1 September 2026, max 28. Born 2 September 1998 → 27 years 11 months 30 days.",
+      "Example 4. An OBC candidate uses the relaxed maximum printed for OBC, not the general maximum plus a guess.",
+      "Example 5. A state police notice that counts age on the last date of application is not using 1 January. Type the last date into the as-on box."
+    ]
+  },
+  {
+    "slug": "why-the-portal-rejected-the-photo",
+    "title": "Why the portal rejected the photo even though it was 35 KB",
+    "excerpt": "Kilobytes are only one check. Dimensions, colour space and face detection fail more often.",
+    "minutes": 5,
+    "updatedAt": "2026-09-08",
+    "body": [
+      "A 35 KB file can still be 80 pixels wide. Portals that run a face-detection check will bounce it. Set width and height first, size second.",
+      "Some portals want JPEG baseline, not progressive, and RGB, not CMYK. Phone cameras already write RGB JPEG. Avoid screenshotting a WhatsApp image — that adds compression artefacts the detector reads as a filter.",
+      "If the preview on the portal looks stretched, you forced a 1:1 crop onto a 3.5×4.5 box. Use the notice ratio.",
+      "When two portals disagree, make two files. Do not reuse an IBPS photograph on an SSC form without rechecking the spec."
+    ]
+  }
+]
