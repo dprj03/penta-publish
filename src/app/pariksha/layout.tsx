@@ -1,19 +1,19 @@
 import { SiteChrome } from '@/components/SiteChrome';
 import { sites } from '@/lib/sites';
 
-const site = sites.formkit;
+const site = sites.pariksha;
 
-export default function FormkitLayout({ children }: { children: React.ReactNode }) {
+export default function ParikshaLayout({ children }: { children: React.ReactNode }) {
   return (
     <SiteChrome
       siteName={site.name}
       basePath={site.path}
       nav={[
-        { href: `${site.path}/tools`, label: 'Tools' },
-        { href: `${site.path}/photo`, label: 'Photo' },
-        { href: `${site.path}/signature`, label: 'Signature' },
-        { href: `${site.path}/age`, label: 'Age' },
-        { href: `${site.path}/guides`, label: 'Guides' },
+        { href: `${site.path}/exams`, label: 'Exams' },
+        { href: `${site.path}/quiz`, label: 'Quiz' },
+        { href: `${site.path}/cutoffs`, label: 'Cut-offs' },
+        { href: `${site.path}/syllabus`, label: 'Syllabus' },
+        { href: `${site.path}/results`, label: 'Results' },
       ]}
       footerLinks={[
         { href: `${site.path}/about`, label: 'About' },

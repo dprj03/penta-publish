@@ -1,18 +1,18 @@
 import { SiteChrome } from '@/components/SiteChrome';
 import { sites } from '@/lib/sites';
 
-const site = sites.formkit;
+const site = sites.yojana;
 
-export default function FormkitLayout({ children }: { children: React.ReactNode }) {
+export default function YojanaLayout({ children }: { children: React.ReactNode }) {
   return (
     <SiteChrome
       siteName={site.name}
       basePath={site.path}
       nav={[
-        { href: `${site.path}/tools`, label: 'Tools' },
-        { href: `${site.path}/photo`, label: 'Photo' },
-        { href: `${site.path}/signature`, label: 'Signature' },
-        { href: `${site.path}/age`, label: 'Age' },
+        { href: `${site.path}/schemes`, label: 'Schemes' },
+        { href: `${site.path}/scholarships`, label: 'Scholarships' },
+        { href: `${site.path}/states`, label: 'States' },
+        { href: `${site.path}/matcher`, label: 'Matcher' },
         { href: `${site.path}/guides`, label: 'Guides' },
       ]}
       footerLinks={[
