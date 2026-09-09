@@ -1,7 +1,6 @@
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-const HOST: Record<string, string> = {
+const HOST_MAP: Record<string, string> = {
   "naukrisetu.in": "/naukri",
   "www.naukrisetu.in": "/naukri",
   "yojanapath.in": "/yojana",
@@ -15,22 +14,26 @@ const HOST: Record<string, string> = {
 };
 
 export function middleware(req: NextRequest) {
-  const prefix = HOST[req.headers.get("host") || ""];
+  const host = req.headers.get("host")?.split(":")[0]?.toLowerCase() || "";
+  const prefix = HOST_MAP[host];
   if (!prefix) return NextResponse.next();
+
   const { pathname } = req.nextUrl;
-  if (pathname === "/") {
-    const url = req.nextUrl.clone();
-    url.pathname = prefix;
-    return NextResponse.rewrite(url);
+  // Already rewritten or static
+  if (
+    pathname.startsWith(prefix) ||
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/api") ||
+    pathname.includes(".")
+  ) {
+    return NextResponse.next();
   }
-  if (!pathname.startsWith(prefix) && !pathname.startsWith("/_next") && !pathname.includes(".")) {
-    const url = req.nextUrl.clone();
-    url.pathname = prefix + pathname;
-    return NextResponse.rewrite(url);
-  }
-  return NextResponse.next();
+
+  const url = req.nextUrl.clone();
+  url.pathname = prefix + (pathname === "/" ? "" : pathname);
+  return NextResponse.rewrite(url);
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|ads.txt|robots.txt).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };

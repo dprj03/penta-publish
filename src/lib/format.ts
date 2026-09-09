@@ -4,22 +4,21 @@ export function daysLeft(iso: string): number {
 }
 
 export function formatDate(iso: string): string {
-  if (!iso) return "—";
-  const d = new Date(iso + "T00:00:00+05:30");
-  return d.toLocaleDateString("en-IN", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  });
+  try {
+    return new Date(iso + "T00:00:00+05:30").toLocaleDateString("en-IN", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    });
+  } catch {
+    return iso;
+  }
 }
 
-export function inr(n: number): string {
-  return n.toLocaleString("en-IN", { maximumFractionDigits: 0 });
-}
-
-export function inrDec(n: number, digits = 0): string {
-  return n.toLocaleString("en-IN", {
-    maximumFractionDigits: digits,
-    minimumFractionDigits: digits,
-  });
+export function formatINR(n: number): string {
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: 0,
+  }).format(n);
 }
