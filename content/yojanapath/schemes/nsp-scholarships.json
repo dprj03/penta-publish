@@ -1,1 +1,7 @@
-{"slug":"nsp-scholarships","name":"National Scholarship Portal","ministry":"Education","benefit":"Central and state scholarships"}
+{
+  "slug": "nsp-scholarships",
+  "title_en": "National Scholarship Portal (NSP)",
+  "title_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल",
+  "official": "https://scholarships.gov.in",
+  "updated": "2026-09-01"
+}

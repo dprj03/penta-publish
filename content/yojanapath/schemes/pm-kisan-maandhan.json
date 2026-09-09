@@ -1,1 +1,7 @@
-{"slug":"pm-kisan-maandhan","name":"PM Kisan Maandhan","ministry":"Agriculture","benefit":"Pension for small farmers"}
+{
+  "slug": "pm-kisan-maandhan",
+  "title_en": "PM-Kisan Maandhan Yojana",
+  "title_hi": "पीएम-किसान मानधन योजना",
+  "official": "https://maandhan.in",
+  "updated": "2026-09-01"
+}

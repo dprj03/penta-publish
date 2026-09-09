@@ -1,1 +1,7 @@
-{"slug":"e-shram","name":"e-Shram","ministry":"Labour","benefit":"Universal account number for unorganised workers"}
+{
+  "slug": "e-shram",
+  "title_en": "e-Shram — unorganised worker registration",
+  "title_hi": "ई-श्रम",
+  "official": "https://eshram.gov.in",
+  "updated": "2026-09-01"
+}

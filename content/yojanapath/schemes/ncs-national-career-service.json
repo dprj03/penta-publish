@@ -1,1 +1,7 @@
-{"slug":"ncs-national-career-service","name":"National Career Service","ministry":"Labour","benefit":"Job matching and career counselling"}
+{
+  "slug": "ncs-national-career-service",
+  "title_en": "National Career Service (NCS)",
+  "title_hi": "राष्ट्रीय कैरियर सेवा",
+  "official": "https://www.ncs.gov.in",
+  "updated": "2026-09-01"
+}

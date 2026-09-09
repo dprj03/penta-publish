@@ -1,1 +1,7 @@
-{"slug":"ayushman-bharat-pmjay","name":"Ayushman Bharat PM-JAY","ministry":"Health","benefit":"Health cover up to ₹5 lakh"}
+{
+  "slug": "ayushman-bharat-pmjay",
+  "title_en": "Ayushman Bharat PM-JAY — ₹5 lakh health cover",
+  "title_hi": "आयुष्मान भारत पीएम-जेएवाई",
+  "official": "https://pmjay.gov.in",
+  "updated": "2026-09-01"
+}

@@ -1,1 +1,7 @@
-{"slug":"eligibility-matcher-how-we-score","title":"How our eligibility matcher scores schemes","excerpt":"Transparent scoring logic for scheme recommendations."}
+{
+  "slug": "eligibility-matcher-how-we-score",
+  "title_en": "How our scheme eligibility matcher works",
+  "title_hi": "हमारा योजना पात्रता मैचर कैसे काम करता है",
+  "summary": "Transparent scoring so you know why a scheme is suggested.",
+  "updated": "2026-09-01"
+}
