@@ -1,9 +1,9 @@
-export const SITES = {
-  naukri: { id: 'naukri', name: 'NaukriSetu', domain: 'naukrisetu.in', prefix: '/naukri' },
-  yojana: { id: 'yojana', name: 'YojanaPath', domain: 'yojanapath.in', prefix: '/yojana' },
-  hisab: { id: 'hisab', name: 'HisabBox', domain: 'hisabbox.in', prefix: '/hisab' },
-  pariksha: { id: 'pariksha', name: 'ParikshaDaily', domain: 'parikshadaily.in', prefix: '/pariksha' },
-  formkit: { id: 'formkit', name: 'FormKitIN', domain: 'formkit.in', prefix: '/formkit' },
-} as const
+export type SiteId = 'naukri' | 'yojana' | 'hisab' | 'pariksha' | 'formkit';
 
-export type SiteId = keyof typeof SITES
+export const sites = {
+  naukri: { id: 'naukri' as const, name: 'NaukriSetu', path: '/naukri', domain: 'naukrisetu.in' },
+  yojana: { id: 'yojana' as const, name: 'YojanaPath', path: '/yojana', domain: 'yojanapath.in' },
+  hisab: { id: 'hisab' as const, name: 'HisabBox', path: '/hisab', domain: 'hisabbox.in' },
+  pariksha: { id: 'pariksha' as const, name: 'ParikshaDaily', path: '/pariksha', domain: 'parikshadaily.in' },
+  formkit: { id: 'formkit' as const, name: 'FormKitIN', path: '/formkit', domain: 'formkit.in' },
+};

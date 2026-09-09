@@ -1,1 +1,7 @@
-{"slug":"pmsby","name":"PMSBY","ministry":"Finance","benefit":"Accident insurance ₹2 lakh"}
+{
+  "slug": "pmsby",
+  "title_en": "PMSBY",
+  "title_hi": "पीएमएसबीवाई",
+  "official": "https://www.jansuraksha.gov.in",
+  "updated": "2026-09-01"
+}

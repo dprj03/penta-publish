@@ -1,1 +1,7 @@
-{"slug":"pmay-gramin","name":"PMAY-Gramin","ministry":"Rural Development","benefit":"Housing for rural poor"}
+{
+  "slug": "pmay-gramin",
+  "title_en": "PMAY-Gramin",
+  "title_hi": "पीएमएवाई-ग्रामीण",
+  "official": "https://pmayg.nic.in",
+  "updated": "2026-09-01"
+}

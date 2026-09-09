@@ -1,1 +1,7 @@
-{"slug":"pmay-urban-2","name":"PMAY-Urban 2.0","ministry":"Housing","benefit":"Urban housing assistance"}
+{
+  "slug": "pmay-urban-2",
+  "title_en": "PMAY-Urban 2.0",
+  "title_hi": "पीएमएवाई-अर्बन 2.0",
+  "official": "https://pmaymis.gov.in",
+  "updated": "2026-09-01"
+}

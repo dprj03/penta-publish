@@ -1,1 +1,7 @@
-{"slug":"pmmvy","name":"PMMVY","ministry":"Women & Child","benefit":"Maternity benefit ₹5000"}
+{
+  "slug": "pmmvy",
+  "title_en": "PMMVY",
+  "title_hi": "पीएमएमवीवाई",
+  "official": "https://pmmvy.wcd.gov.in",
+  "updated": "2026-09-01"
+}

@@ -1,1 +1,7 @@
-{"slug":"pmegp","name":"PMEGP","ministry":"MSME","benefit":"Subsidy for micro enterprises"}
+{
+  "slug": "pmegp",
+  "title_en": "PMEGP",
+  "title_hi": "पीएमईजीपी",
+  "official": "https://www.kviconline.gov.in",
+  "updated": "2026-09-01"
+}

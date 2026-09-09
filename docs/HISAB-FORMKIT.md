@@ -1,3 +1,3 @@
-# HisabBox + FormKit notes
+# HisabBox + FormKitIN notes
 
-Shared calculator patterns, field components, and form-tool UX guidelines.
+Calculators and form tools are client-side only. No PII is sent to any server.
