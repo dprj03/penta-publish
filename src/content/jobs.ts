@@ -1,2 +1,1 @@
-// placeholder
-export const jobs = [];
+PLACEHOLDER_WILL_FAIL
