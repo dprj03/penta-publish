@@ -1,3 +1,3 @@
-# HisabBox + FormKitIN notes
+# HisabBox + FormKit notes
 
-Calculators and form tools stay client-side. No uploads.
+Shared calculator patterns, field components, and form-tool UX guidelines.
