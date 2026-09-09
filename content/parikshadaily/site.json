@@ -1,0 +1,90 @@
+{
+  "id": "parikshadaily",
+  "name": "ParikshaDaily",
+  "tagline_en": "Syllabus, cutoff, admit card and a 10-question drill — every day.",
+  "tagline_hi": "सिलेबस, कटऑफ, एडमिट कार्ड और रोज़ 10 सवाल।",
+  "domain": "parikshadaily.in",
+  "locale": "en-IN",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "theme": {
+    "primary": "#1E3A8A",
+    "primaryDark": "#172554",
+    "accent": "#F59E0B",
+    "bg": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "text": "#0F172A",
+    "muted": "#475569"
+  },
+  "nav": [
+    {
+      "href": "/pariksha",
+      "en": "Home",
+      "hi": "होम"
+    },
+    {
+      "href": "/pariksha/exams",
+      "en": "Exams",
+      "hi": "परीक्षाएँ"
+    },
+    {
+      "href": "/pariksha/calendar",
+      "en": "Calendar",
+      "hi": "कैलेंडर"
+    },
+    {
+      "href": "/pariksha/admit-card",
+      "en": "Admit Card",
+      "hi": "एडमिट कार्ड"
+    },
+    {
+      "href": "/pariksha/results",
+      "en": "Results",
+      "hi": "रिजल्ट"
+    },
+    {
+      "href": "/pariksha/quiz",
+      "en": "Daily Quiz",
+      "hi": "दैनिक क्विज़"
+    },
+    {
+      "href": "/pariksha/syllabus",
+      "en": "Syllabus",
+      "hi": "सिलेबस"
+    }
+  ],
+  "tracks": [
+    "SSC",
+    "Banking",
+    "Railway",
+    "UPSC",
+    "Defence",
+    "Teaching",
+    "State PSC"
+  ],
+  "crossLinks": [
+    {
+      "site": "NaukriSetu",
+      "href": "/naukri",
+      "label": "Latest Jobs"
+    },
+    {
+      "site": "YojanaPath",
+      "href": "/yojana",
+      "label": "Schemes"
+    },
+    {
+      "site": "FormKitIN",
+      "href": "/formkit",
+      "label": "Photo & Age Tools"
+    },
+    {
+      "site": "HisabBox",
+      "href": "/hisab",
+      "label": "Salary Calculators"
+    }
+  ],
+  "adsensePublisherPlaceholder": "ca-pub-XXXXXXXXXXXXXXXX"
+}

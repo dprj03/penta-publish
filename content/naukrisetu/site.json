@@ -1,0 +1,54 @@
+{
+  "id": "naukrisetu",
+  "name": "NaukriSetu",
+  "nameHi": "नौकरीसेतु",
+  "tagline": "Verified Sarkari Naukri, results and admit cards — without the clutter.",
+  "taglineHi": "सत्यापित सरकारी नौकरी, रिजल्ट और एडमिट कार्ड — बिना अव्यवस्था के।",
+  "domain": "naukrisetu.in",
+  "path": "/naukri",
+  "locale": "en-IN",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "theme": {
+    "primary": "#1B3A4B",
+    "accent": "#E8A838",
+    "surface": "#F6F1E8",
+    "ink": "#14202A",
+    "success": "#1F7A4D"
+  },
+  "nav": [
+    {
+      "href": "/naukri",
+      "label": "Jobs",
+      "labelHi": "नौकरियाँ"
+    },
+    {
+      "href": "/naukri/calendar",
+      "label": "Last Dates",
+      "labelHi": "अंतिम तिथि"
+    },
+    {
+      "href": "/naukri/eligibility",
+      "label": "Am I Eligible?",
+      "labelHi": "पात्रता जाँच"
+    },
+    {
+      "href": "/naukri/results",
+      "label": "Results",
+      "labelHi": "रिजल्ट"
+    },
+    {
+      "href": "/naukri/admit-card",
+      "label": "Admit Card",
+      "labelHi": "एडमिट कार्ड"
+    },
+    {
+      "href": "/naukri/guides",
+      "label": "Guides",
+      "labelHi": "गाइड"
+    }
+  ],
+  "disclaimer": "NaukriSetu aggregates publicly available recruitment information and always links to the official source. Verify dates, fees and eligibility on the issuing commission or department website before you apply."
+}
